@@ -1,4 +1,4 @@
-# Lab-2-Neira-Velasquez-PokeAPI Starters 🌿🔥💦
+# Lab-2-Velasquez-Neira-PokeAPI Starters 🌿🔥💦
 
 ![PokeAPI Starters](https://comicvine.gamespot.com/a/uploads/original/11129/111291017/6594281-unnamed__1_.0.jpg)
 
