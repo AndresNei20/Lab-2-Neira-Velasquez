@@ -1,9 +1,17 @@
 let pokemon_id;
 async function getApi(pokemon_id) {
+  const local = localStorage.getItem("data")
+  if (local) {
+    return local 
+    
+  } else if (!local) {
   const res = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemon_id}`);
   const data = await res.json();
   console.log(data);
   renderPokes(data);
+  localStorage.setItem("data",data)
+  return data;
+  }
 }
 
 const bulbasaurBtn = document.createElement("button");
