@@ -1,9 +1,101 @@
+
+
+*{
+align-items: center;
+justify-content: center;
+
+
+}
+
+#gif {
+    
+    width: 20%;
+    margin-left: 40%;
+    margin-bottom: 5%;
+}
+
+
+#pokeCard {
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(254, 251, 240);
+    width: 80%;
+    margin-left: 10%;
+
+}
+
+#options{
+    background-color: rgb(225, 153, 94);
+    border: none;
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    margin: 10px;
+}
+#options:hover{
+    background-color: rgb(94, 162, 225);
+    
+}
+
+#save{
+    background-color: rgb(94, 162, 225);
+    border: none;
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    margin: 5px;
+}
+
+#pokeBtn{
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    width: 100px;
+    border: none;
+    border-radius: 20px;
+    margin: 30px;
+
+}
+
+#pokeBtn:hover {
+    background-color: rgb(251, 213, 117);
+}
+
+#number{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(255, 222, 115);
+}
+
+#header{
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .Fire{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: orange;
 }
 .Water{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: cadetblue;
 }
 .Grass{
-    color: greenyellow;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(94, 126, 45);
+}
+
+#info{
+    background-color: rgb(255, 235, 169);
+    width: 80%;
+    border-radius: 10px;
+}
+
+#texttitle{
+    margin-left: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#text{
+    margin-left: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
